@@ -13,6 +13,7 @@ public class InnerClass {
 
         class NewAge{
             int getAge(){
+                //age = 10; 这行会报错，说明age不可被修改。
                 return age+defaultAge;
             }
         }
